@@ -2,9 +2,6 @@ package michael_RPG;
 
 public class chain {
 
-    public void 체력포션사용(michael_RPG.portion hp){
-
-    }
     public void 전투(michael_RPG.monster monst, michael_RPG.character charact, michael_RPG.skill skil) {
         System.out.println(charact.name + "의 공격!!");
         monst.hp -= ((charact.attack_value + charact.weapon.attack_value) - monst.defend_value);
@@ -52,4 +49,5 @@ public class chain {
     public void 마나소모(michael_RPG.character charact) {
         charact.mp -= charact.skill1.use_mp;
     }
+
 }

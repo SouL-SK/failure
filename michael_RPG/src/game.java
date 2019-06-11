@@ -213,10 +213,10 @@ public class game {
                 메시지.포션();
                 i = sc.nextInt();
                 if (i == 1) {
-                    메시지.체력포션(beginner);
+                    메시지.체력포션(beginner,체력포션);
                 }
                 if (i == 2) {
-                    메시지.마나포션(beginner);
+                    메시지.마나포션(beginner,마나포션);
                 }
             }
         }
@@ -258,10 +258,10 @@ public class game {
                     메시지.포션();
                     i = sc.nextInt();
                     if (i == 1) {
-                        메시지.체력포션(michael);
+                        메시지.체력포션(michael,체력포션);
                     }
                     if (i == 2) {
-                        메시지.마나포션(michael);
+                        메시지.마나포션(michael,마나포션);
                     }
                 }
             }
@@ -297,10 +297,10 @@ public class game {
                     메시지.포션();
                     i = sc.nextInt();
                     if (i == 1) {
-                        메시지.체력포션(knghit_michael);
+                        메시지.체력포션(knghit_michael,체력포션);
                     }
                     if (i == 2) {
-                        메시지.마나포션(knghit_michael);
+                        메시지.마나포션(knghit_michael,마나포션);
                     }
                 }
             }
@@ -339,10 +339,10 @@ public class game {
                     메시지.포션();
                     i = sc.nextInt();
                     if (i == 1) {
-                        메시지.체력포션(sword_saint_michael);
+                        메시지.체력포션(sword_saint_michael,체력포션);
                     }
                     if (i == 2) {
-                        메시지.마나포션(sword_saint_michael);
+                        메시지.마나포션(sword_saint_michael,마나포션);
                     }
                 }
             }
@@ -386,10 +386,10 @@ public class game {
                     메시지.포션();
                     i = sc.nextInt();
                     if (i == 1) {
-                        메시지.체력포션(souljunior);
+                        메시지.체력포션(souljunior,체력포션);
                     }
                     if (i == 2) {
-                        메시지.마나포션(souljunior);
+                        메시지.마나포션(souljunior,마나포션);
                     }
                 }
             }
@@ -429,10 +429,10 @@ public class game {
                     메시지.포션();
                     i = sc.nextInt();
                     if (i == 1) {
-                        메시지.체력포션(soulsenior);
+                        메시지.체력포션(soulsenior,체력포션);
                     }
                     if (i == 2) {
-                        메시지.마나포션(soulsenior);
+                        메시지.마나포션(soulsenior,마나포션);
                     }
                 }
             }
@@ -473,10 +473,10 @@ public class game {
                 메시지.포션();
                 i = sc.nextInt();
                 if (i == 1) {
-                    메시지.체력포션(soulmaster);
+                    메시지.체력포션(soulmaster,체력포션);
                 }
                 if (i == 2) {
-                    메시지.마나포션(soulmaster);
+                    메시지.마나포션(soulmaster,마나포션);
                 }
             }
             System.out.println("축하합니다!! 디아블로를 무찌르셨습니다!!");
