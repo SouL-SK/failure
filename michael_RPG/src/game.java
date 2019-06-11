@@ -17,8 +17,8 @@ public class game {
         michael_RPG.skill 베기 = new michael_RPG.skill("베기", 1000, 30);
         michael_RPG.skill 베어가르기 = new michael_RPG.skill("베어가르기", 3000, 50);
         michael_RPG.skill 홀리크로스 = new michael_RPG.skill("홀리크로스", 25000, 150);
-        michael_RPG.portion 체력포션 = new michael_RPG.portion("체력포션", 100);
-        michael_RPG.portion 마나포션 = new michael_RPG.portion("마나포션", 100);
+        michael_RPG.portion 체력포션 = new michael_RPG.portion("체력포션", 100,5);
+        michael_RPG.portion 마나포션 = new michael_RPG.portion("마나포션", 100,5);
         michael_RPG.character beginner = new michael_RPG.character("리무녁", 100, 80, 100, 80, 50, 50, branch, 낡은세트, 체력포션, 마나포션, 달팽이세마리);
         michael_RPG.character michael = new michael_RPG.character("미하일", 1000, 800, 1000, 800, 150, 150, knight_sword, 초보기사세트, 체력포션, 마나포션,
                 베기);
