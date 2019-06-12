@@ -150,11 +150,8 @@ public class message {
             System.out.println("람머스는 쓰러졌습니다!!");
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {
-            }
             System.out.println("축하합니다!! 미하일에서 기사미하일로 전직하셨습니다!!");
             System.out.println();
-            try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
@@ -163,11 +160,8 @@ public class message {
             System.out.println("람머스는 쓰러졌습니다!!");
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {
-            }
             System.out.println("축하합니다!! 소울주니어에서 소울시니어로 전직하셨습니다!!");
             System.out.println();
-            try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
@@ -176,11 +170,8 @@ public class message {
             System.out.println("군다는 쓰러졌습니다!!");
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {
-            }
             System.out.println("축하합니다!! 기사미하일에서 검성미하일로 전직하셨습니다!!");
             System.out.println();
-            try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
@@ -189,11 +180,8 @@ public class message {
             System.out.println("군다는 쓰러졌습니다!!");
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {
-            }
             System.out.println("축하합니다!! 소울시니어에서 소울마스터로 전직하셨습니다!!");
             System.out.println();
-            try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
