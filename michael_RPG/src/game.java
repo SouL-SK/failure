@@ -38,7 +38,7 @@ public class game {
         michael_RPG.monster 디아블로 = new michael_RPG.monster("디아블로", 6000000, 6000000, 10000, 5000);
         michael_RPG.message 메시지 = new michael_RPG.message();
         michael_RPG.status 상태 = new michael_RPG.status();
-        michael_RPG.chain 연결 = new michael_RPG.chain();
+        michael_RPG.battle 연결 = new michael_RPG.battle();
         Scanner sc = new Scanner(System.in);
         int i = 0;
         // 여기까지 생성한 인스턴스 들이었습니다.

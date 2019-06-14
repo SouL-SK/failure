@@ -1,6 +1,6 @@
 package michael_RPG;
 
-public class chain {
+public class battle {
 
     public void 전투(michael_RPG.monster monst, michael_RPG.character charact, michael_RPG.skill skil) {
         System.out.println(charact.name + "의 공격!!");
