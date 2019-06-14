@@ -33,9 +33,9 @@ public class game {
         michael_RPG.character soulmaster = new michael_RPG.character("소울마스터", 10000, 8000, 10000, 8000, 3000, 2500, sword_saint, 검성세트,
                 체력포션, 마나포션, 홀리크로스);
         michael_RPG.monster 피카츄 = new michael_RPG.monster("피카츄", 150, 150, 80, 0);
-        michael_RPG.monster 람머스 = new michael_RPG.monster("람머스", 8500, 8500, 280, 110);
-        michael_RPG.monster 군다 = new michael_RPG.monster("군다", 110000, 110000, 5000, 1600);
-        michael_RPG.monster 디아블로 = new michael_RPG.monster("디아블로", 6000000, 6000000, 10000, 5000);
+        michael_RPG.monster 람머스 = new michael_RPG.monster("람머스", 6500, 6500, 280, 110);
+        michael_RPG.monster 군다 = new michael_RPG.monster("군다", 11000, 11000, 1000, 1000);
+        michael_RPG.monster 디아블로 = new michael_RPG.monster("디아블로", 40000, 40000, 2000, 2000);
         michael_RPG.message 메시지 = new michael_RPG.message();
         michael_RPG.status 상태 = new michael_RPG.status();
         michael_RPG.battle 연결 = new michael_RPG.battle();
@@ -90,9 +90,9 @@ public class game {
             System.out.print("선택창에서 번호를 알려드릴 테니 ");
             Thread.sleep(500);
             System.out.println("원하는 행동은 선택지를 보고 입력하시면 됩니다.");
-            Thread.sleep(1000);
+            Thread.sleep(500);
             System.out.println("그러면 이제 게임을 시작하겠습니다.");
-            Thread.sleep(1000);
+            Thread.sleep(500);
             System.out.println("즐거운 시간 되십시오!");
             System.out.println("\n");
             System.out.println("로딩 중...");
@@ -126,6 +126,8 @@ public class game {
             }
             if (i == 2) {
                 메시지.포션();
+                메시지.포션표시(체력포션);
+                메시지.포션표시2(마나포션);
                 i = sc.nextInt();
                 if (i == 1) {
                     메시지.체력포션(beginner, 체력포션);
@@ -165,6 +167,8 @@ public class game {
                 }
                 if (i == 2) {
                     메시지.포션();
+                    메시지.포션표시(체력포션);
+                    메시지.포션표시2(마나포션);
                     i = sc.nextInt();
                     if (i == 1) {
                         메시지.체력포션(michael, 체력포션);
@@ -199,6 +203,8 @@ public class game {
                 }
                 if (i == 2) {
                     메시지.포션();
+                    메시지.포션표시(체력포션);
+                    메시지.포션표시2(마나포션);
                     i = sc.nextInt();
                     if (i == 1) {
                         메시지.체력포션(knghit_michael, 체력포션);
@@ -235,6 +241,8 @@ public class game {
                 }
                 if (i == 2) {
                     메시지.포션();
+                    메시지.포션표시(체력포션);
+                    메시지.포션표시2(마나포션);
                     i = sc.nextInt();
                     if (i == 1) {
                         메시지.체력포션(sword_saint_michael, 체력포션);
@@ -276,6 +284,8 @@ public class game {
                 }
                 if (i == 2) {
                     메시지.포션();
+                    메시지.포션표시(체력포션);
+                    메시지.포션표시2(마나포션);
                     i = sc.nextInt();
                     if (i == 1) {
                         메시지.체력포션(souljunior, 체력포션);
@@ -313,6 +323,8 @@ public class game {
                 }
                 if (i == 2) {
                     메시지.포션();
+                    메시지.포션표시(체력포션);
+                    메시지.포션표시2(마나포션);
                     i = sc.nextInt();
                     if (i == 1) {
                         메시지.체력포션(soulsenior, 체력포션);
@@ -351,6 +363,8 @@ public class game {
             }
             if (i == 2) {
                 메시지.포션();
+                메시지.포션표시(체력포션);
+                메시지.포션표시2(마나포션);
                 i = sc.nextInt();
                 if (i == 1) {
                     메시지.체력포션(soulmaster, 체력포션);
