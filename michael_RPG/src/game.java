@@ -24,13 +24,13 @@ public class game {
                 베기);
         michael_RPG.character souljunior = new michael_RPG.character("소울주니어", 800, 1000, 800, 1000, 200, 150, knight_sword, 초보기사세트, 체력포션,
                 마나포션, 베기);
-        michael_RPG.character knghit_michael = new michael_RPG.character("기사미하일", 3000, 1500, 3000, 1500, 500, 700, knight_blade, 기사단장세트,
+        michael_RPG.character knghit_michael = new michael_RPG.character("기사미하일", 30000, 1500, 30000, 1500, 1000, 700, knight_blade, 기사단장세트,
                 체력포션, 마나포션, 베어가르기);
-        michael_RPG.character soulsenior = new michael_RPG.character("소울시니어", 2000, 2000, 2000, 2000, 700, 500, knight_blade, 기사단장세트,
+        michael_RPG.character soulsenior = new michael_RPG.character("소울시니어", 20000, 2000, 20000, 2000, 1000, 500, knight_blade, 기사단장세트,
                 체력포션, 마나포션, 베어가르기);
-        michael_RPG.character sword_saint_michael = new michael_RPG.character("검성미하일", 10000, 8000, 10000, 8000, 2500, 3000, sword_saint,
+        michael_RPG.character sword_saint_michael = new michael_RPG.character("검성미하일", 100000, 8000, 100000, 8000, 3500, 3000, sword_saint,
                 검성세트, 체력포션, 마나포션, 홀리크로스);
-        michael_RPG.character soulmaster = new michael_RPG.character("소울마스터", 10000, 8000, 10000, 8000, 3000, 2500, sword_saint, 검성세트,
+        michael_RPG.character soulmaster = new michael_RPG.character("소울마스터", 100000, 8000, 100000, 8000, 3500, 2500, sword_saint, 검성세트,
                 체력포션, 마나포션, 홀리크로스);
         michael_RPG.monster 피카츄 = new michael_RPG.monster("피카츄", 150, 150, 80, 0);
         michael_RPG.monster 람머스 = new michael_RPG.monster("람머스", 6500, 6500, 280, 110);

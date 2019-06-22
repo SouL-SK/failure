@@ -2,7 +2,7 @@ package michael_RPG;
 
 public class battle {
 
-    public void 전투(michael_RPG.monster monst, michael_RPG.character charact, michael_RPG.skill skil) {
+    public void 전투(michael_RPG.monster monst, michael_RPG.character charact) {
         System.out.println(charact.name + "의 공격!!");
         System.out.println("----------------------------------------------------------");
         monst.hp -= ((charact.attack_value + charact.weapon.attack_value) - monst.defend_value);
@@ -56,5 +56,11 @@ public class battle {
     public void 마나소모(michael_RPG.character charact) {
         charact.mp -= charact.skill1.use_mp;
     }
-
+    public void 난동(michael_RPG.monster monster){
+        System.out.println(monster.name+"은(는) 난동을 피우기 시작했습니다!1");
+        System.out.println("몬스터가 난동을 피우면 몬스터의 공격력은 상승하고 방어력은 하락합니다!!");
+        monster.attack_value+=monster.attack_value*1.5;
+        monster.defend_value-=monster.defend_value*1.5;
+    }
+    public void
 }
