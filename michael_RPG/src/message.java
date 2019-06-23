@@ -78,6 +78,14 @@ public class message {
             System.out.println("------------------------------------------------");
         }
     }
+    public void 몹정보(michael_RPG.monster monster){
+        System.out.println("----------------------------------------------");
+        System.out.println(monster.name+"의 상태");
+        System.out.println(monster.name+"의 체력:"+monster.hp);
+        System.out.println(monster.name+"의 공격력:"+monster.attack_value);
+        System.out.println(monster.name+"의 방어력:"+monster.defend_value);
+        System.out.println("----------------------------------------------");
+    }
 
     public void 전투창(michael_RPG.character character) {
         System.out.println("현재 상태");
@@ -151,8 +159,6 @@ public class message {
 
     public void 전직(michael_RPG.monster monster, michael_RPG.character character) {
         if (monster.name == "피카츄") {
-            System.out.println("피카츄는 쓰러졌습니다!!");
-            System.out.println("----------------------------------------------------------");
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
@@ -167,8 +173,6 @@ public class message {
             System.out.println("----------------------------------------------------------");
         }
         if (monster.name == "람머스" && character.name == "미하일") {
-            System.out.println("람머스는 쓰러졌습니다!!");
-            System.out.println("----------------------------------------------------------");
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 미하일에서 기사미하일로 전직하셨습니다!!");
@@ -178,8 +182,6 @@ public class message {
             }
         }
         if (monster.name == "람머스" && character.name == "소울주니어") {
-            System.out.println("람머스는 쓰러졌습니다!!");
-            System.out.println("-----------------------------------------------------------");
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 소울주니어에서 소울시니어로 전직하셨습니다!!");
@@ -189,8 +191,6 @@ public class message {
             }
         }
         if (monster.name == "군다" && character.name == "기사미하일") {
-            System.out.println("군다는 쓰러졌습니다!!");
-            System.out.println("-----------------------------------------------------------");
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 기사미하일에서 검성미하일로 전직하셨습니다!!");
@@ -200,8 +200,6 @@ public class message {
             }
         }
         if (monster.name == "군다" && character.name == "소울시니어") {
-            System.out.println("군다는 쓰러졌습니다!!");
-            System.out.println("------------------------------------------------------------");
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 소울시니어에서 소울마스터로 전직하셨습니다!!");
