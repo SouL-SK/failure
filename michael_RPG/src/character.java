@@ -31,5 +31,4 @@ public class character {
 		this.skill1 = skill1;
 		
 	}
-
 }
