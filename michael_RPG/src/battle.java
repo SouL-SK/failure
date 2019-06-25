@@ -144,4 +144,33 @@ public class battle {
         } catch (InterruptedException e) {
         }
     }
+    public void dead(michael_RPG.monster monster){
+        if(monster.name=="피카츄"){
+            monster.hp=350;
+            monster.max_hp=350;
+            monster.attack_value=100;
+            monster.defend_value=50;
+        }
+        if(monster.name=="람머스"){
+            monster.hp=5500;
+            monster.max_hp=5500;
+            monster.attack_value=380;
+            monster.defend_value=110;
+        }
+        if(monster.name=="군다"){
+            monster.hp=11000;
+            monster.max_hp=11000;
+            monster.attack_value=1000;
+            monster.defend_value=1000;
+        }
+        if(monster.name=="디아블로"){
+            monster.hp=40000;
+            monster.max_hp=40000;
+            monster.attack_value=2000;
+            monster.defend_value=2000;
+        }
+        else{
+            System.out.println("에러가 발생했습니다.");
+        }
+    }
 }

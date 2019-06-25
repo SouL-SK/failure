@@ -32,7 +32,7 @@ public class game {
                 검성세트, 체력포션, 마나포션, 홀리크로스);
         michael_RPG.character soulmaster = new michael_RPG.character("소울마스터", 100000, 8000, 100000, 8000, 3500, 2500, sword_saint, 검성세트,
                 체력포션, 마나포션, 홀리크로스);
-        michael_RPG.monster 피카츄 = new michael_RPG.monster("피카츄", 300, 300, 100, 50);
+        michael_RPG.monster 피카츄 = new michael_RPG.monster("피카츄", 350, 350, 100, 50);
         michael_RPG.monster 람머스 = new michael_RPG.monster("람머스", 5500, 5500, 380, 110);
         michael_RPG.monster 군다 = new michael_RPG.monster("군다", 11000, 11000, 1000, 1000);
         michael_RPG.monster 디아블로 = new michael_RPG.monster("디아블로", 40000, 40000, 2000, 2000);
@@ -45,60 +45,60 @@ public class game {
         // 여기까지 생성한 인스턴스 들이었습니다.
 
         // 게임 시작
-        System.out.println("게임을 시작하겠습니다.");
-        try {
-            Thread.sleep(500);
-            System.out.println("게임을 시작하기 앞서서 게임에 대해서 설명해드리겠습니다.");
-            Thread.sleep(500);
-            System.out.println("당신은 이 세계에서 몬스터를 잡아 전직을 해야합니다.");
-            Thread.sleep(500);
-            System.out.println("몬스터를 잡고 나면 전직을 하실 수 있습니다.");
-            Thread.sleep(500);
-            System.out.println("전직을 하면 더 강한 능력치, 스킬과 장비를 얻으실 수 있습니다.");
-            Thread.sleep(500);
-            System.out.println("당신은 초보자부터 시작합니다.");
-            Thread.sleep(500);
-            System.out.println("전직 루트는 두가지 루트가 있습니다.");
-            Thread.sleep(500);
-            System.out.print("미하일 루트가 있고 ");
-            Thread.sleep(500);
-            System.out.println("소울마스터 루트가 있습니다.");
-            Thread.sleep(500);
-            System.out.print("미하일 루트는 ");
-            Thread.sleep(500);
-            System.out.print("초보자 ");
-            Thread.sleep(500);
-            System.out.print("- 미하일 ");
-            Thread.sleep(500);
-            System.out.print("- 기사미하일 ");
-            Thread.sleep(500);
-            System.out.print("- 검성미하일 ");
-            Thread.sleep(500);
-            System.out.println("입니다.");
-            Thread.sleep(500);
-            System.out.print("소울마스터 루트는 ");
-            Thread.sleep(500);
-            System.out.print("초보자 ");
-            Thread.sleep(500);
-            System.out.print("- 소울주니어 ");
-            Thread.sleep(500);
-            System.out.print("- 소울시니어 ");
-            Thread.sleep(500);
-            System.out.print("- 소울마스터 ");
-            Thread.sleep(500);
-            System.out.println("입니다.");
-            Thread.sleep(500);
-            System.out.print("선택창에서 번호를 알려드릴 테니 ");
-            Thread.sleep(500);
-            System.out.println("원하는 행동은 선택지를 보고 입력하시면 됩니다.");
-            Thread.sleep(500);
-            System.out.println("그러면 이제 게임을 시작하겠습니다.");
-            Thread.sleep(500);
-            System.out.println("즐거운 시간 되십시오!");
-            System.out.println("\n");
-            System.out.println("로딩 중...");
-        } catch (InterruptedException e) {
-        }
+//        System.out.println("게임을 시작하겠습니다.");
+//        try {
+//            Thread.sleep(500);
+//            System.out.println("게임을 시작하기 앞서서 게임에 대해서 설명해드리겠습니다.");
+//            Thread.sleep(500);
+//            System.out.println("당신은 이 세계에서 몬스터를 잡아 전직을 해야합니다.");
+//            Thread.sleep(500);
+//            System.out.println("몬스터를 잡고 나면 전직을 하실 수 있습니다.");
+//            Thread.sleep(500);
+//            System.out.println("전직을 하면 더 강한 능력치, 스킬과 장비를 얻으실 수 있습니다.");
+//            Thread.sleep(500);
+//            System.out.println("당신은 초보자부터 시작합니다.");
+//            Thread.sleep(500);
+//            System.out.println("전직 루트는 두가지 루트가 있습니다.");
+//            Thread.sleep(500);
+//            System.out.print("미하일 루트가 있고 ");
+//            Thread.sleep(500);
+//            System.out.println("소울마스터 루트가 있습니다.");
+//            Thread.sleep(500);
+//            System.out.print("미하일 루트는 ");
+//            Thread.sleep(500);
+//            System.out.print("초보자 ");
+//            Thread.sleep(500);
+//            System.out.print("- 미하일 ");
+//            Thread.sleep(500);
+//            System.out.print("- 기사미하일 ");
+//            Thread.sleep(500);
+//            System.out.print("- 검성미하일 ");
+//            Thread.sleep(500);
+//            System.out.println("입니다.");
+//            Thread.sleep(500);
+//            System.out.print("소울마스터 루트는 ");
+//            Thread.sleep(500);
+//            System.out.print("초보자 ");
+//            Thread.sleep(500);
+//            System.out.print("- 소울주니어 ");
+//            Thread.sleep(500);
+//            System.out.print("- 소울시니어 ");
+//            Thread.sleep(500);
+//            System.out.print("- 소울마스터 ");
+//            Thread.sleep(500);
+//            System.out.println("입니다.");
+//            Thread.sleep(500);
+//            System.out.print("선택창에서 번호를 알려드릴 테니 ");
+//            Thread.sleep(500);
+//            System.out.println("원하는 행동은 선택지를 보고 입력하시면 됩니다.");
+//            Thread.sleep(500);
+//            System.out.println("그러면 이제 게임을 시작하겠습니다.");
+//            Thread.sleep(500);
+//            System.out.println("즐거운 시간 되십시오!");
+//            System.out.println("\n");
+//            System.out.println("로딩 중...");
+//        } catch (InterruptedException e) {
+//        }
 //		 게임 시작 기본 설명이었습니다.
 //		 잠깐 텀
         try {
@@ -112,7 +112,7 @@ public class game {
         int cishu = 0;
         int death = 0;
         while (피카츄.hp > 0) {
-            cishu++;//횟수에 따라 몹이 체력회복 쓰게 하기
+            cishu++;
             if (cishu == 2) {
                 연결.의지(beginner);
                 연결.난동(피카츄);
@@ -139,15 +139,18 @@ public class game {
                         if (beginner.hp <= 0) {
                             연결.사망(beginner, 피카츄);
                             메시지.몹정보(피카츄);
-                            cishu=0;
+                            cishu = 0;
                             death++;
-                            //피카츄가 난동 부리기 전의 능력치로 돌아가게 만들기
-                            //데스 수에 따라 희망<< 실행
+                            피카츄 = new michael_RPG.monster("피카츄", 300, 300, 130, 50);
+                            if (death == 2) {
+                                연결.희망(beginner);
+                            }
                             continue;
                         }
                     } catch (InterruptedException e) {
                     }
                 }
+                continue;
             }
             if (i == 2) {
                 메시지.포션();
@@ -160,6 +163,22 @@ public class game {
                 if (i == 2) {
                     메시지.마나포션(beginner, 마나포션);
                 }
+                연결.전투2(피카츄, beginner);
+                if (beginner.hp <= 0) {
+                    연결.사망(beginner, 피카츄);
+                    cishu = 0;
+                    death++;
+                    연결.dead(피카츄);
+                    메시지.몹정보(피카츄);
+                    if (death == 2) {
+                        연결.희망(beginner);
+                    }
+                    continue;
+                }
+                continue;
+            } else {
+                System.out.println("유효하지 않은 접근입니다.");
+                System.exit(1);
             }
         }
         메시지.전직(피카츄, beginner);
@@ -174,6 +193,7 @@ public class game {
             } catch (InterruptedException e) {
             }
             cishu = 0;
+            death = 0;
             while (람머스.hp > 0) {
                 cishu++;
                 if (cishu == 2) {
@@ -199,9 +219,15 @@ public class game {
                             Thread.sleep(1000);
                             연결.전투2(람머스, michael);
                             Thread.sleep(1000);
-                            if (michael.hp <+ 0) {
+                            if (michael.hp <= 0) {
                                 연결.사망(michael, 람머스);
                                 메시지.몹정보(람머스);
+                                cishu = 0;
+                                death++;
+                                연결.dead(람머스);
+                                if (death == 2) {
+                                    연결.희망(michael);
+                                }
                                 continue;
                             }
                         } catch (InterruptedException e) {
@@ -228,12 +254,13 @@ public class game {
             } catch (InterruptedException e) {
             }
             cishu = 0;
+            death = 0;
             while (군다.hp > 0) {
                 cishu++;
                 if (cishu == 1) {
                     연결.공포(knghit_michael);
                 }
-                if(cishu==2){
+                if (cishu == 2) {
                     연결.의지(knghit_michael);
                     연결.난동(군다);
                 }
@@ -248,7 +275,7 @@ public class game {
                     if (i == 1) {
                         연결.전투(군다, knghit_michael, 베어가르기);
                         연결.마나소모(knghit_michael);
-                        if(군다.hp<=0){
+                        if (군다.hp <= 0) {
                             연결.몹사망(군다);
                             break;
                         }
@@ -256,9 +283,15 @@ public class game {
                             Thread.sleep(1000);
                             연결.전투2(군다, knghit_michael);
                             Thread.sleep(1000);
-                            if(knghit_michael.hp<=0){
-                                연결.사망(knghit_michael,군다);
+                            if (knghit_michael.hp <= 0) {
+                                연결.사망(knghit_michael, 군다);
                                 메시지.몹정보(군다);
+                                cishu = 0;
+                                death++;
+                                군다 = new michael_RPG.monster("군다", 11000, 11000, 1000, 1000);
+                                if (death == 2) {
+                                    연결.희망(knghit_michael);
+                                }
                                 continue;
                             }
                         } catch (InterruptedException e) {
@@ -287,13 +320,14 @@ public class game {
             } catch (InterruptedException e) {
             }
             cishu = 0;
+            death = 0;
             while (디아블로.hp > 0) {
                 cishu++;
-                if(cishu==2){
+                if (cishu == 2) {
                     연결.의지(sword_saint_michael);
                     연결.난동(디아블로);
                 }
-                if(cishu>2){
+                if (cishu > 2) {
                     연결.난동중(디아블로);
                 }
                 if (cishu > 3) {
@@ -307,7 +341,7 @@ public class game {
                     if (i == 1) {
                         연결.전투(디아블로, sword_saint_michael, 홀리크로스);
                         연결.마나소모(sword_saint_michael);
-                        if(디아블로.hp<=0){
+                        if (디아블로.hp <= 0) {
                             연결.몹사망(디아블로);
                             break;
                         }
@@ -315,9 +349,15 @@ public class game {
                             Thread.sleep(1000);
                             연결.전투2(디아블로, sword_saint_michael);
                             Thread.sleep(1000);
-                            if(sword_saint_michael.hp<=0){
-                                연결.사망(sword_saint_michael,디아블로);
+                            if (sword_saint_michael.hp <= 0) {
+                                연결.사망(sword_saint_michael, 디아블로);
                                 메시지.몹정보(디아블로);
+                                cishu = 0;
+                                death++;
+                                디아블로 = new michael_RPG.monster("디아블로", 40000, 40000, 2000, 2000);
+                                if (death == 2) {
+                                    연결.희망(sword_saint_michael);
+                                }
                                 continue;
                             }
                         } catch (InterruptedException e) {
@@ -354,14 +394,15 @@ public class game {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
-            cishu=0;
+            cishu = 0;
+            death = 0;
             while (람머스.hp > 0) {
                 cishu++;
-                if(cishu==2){
+                if (cishu == 2) {
                     연결.의지(souljunior);
                     연결.난동(람머스);
                 }
-                if(cishu>2){
+                if (cishu > 2) {
                     연결.난동중(람머스);
                 }
                 메시지.전투창(souljunior);
@@ -372,7 +413,7 @@ public class game {
                     if (i == 1) {
                         연결.전투(람머스, souljunior, 베기);
                         연결.마나소모(souljunior);
-                        if(람머스.hp<=0){
+                        if (람머스.hp <= 0) {
                             연결.몹사망(람머스);
                             break;
                         }
@@ -380,9 +421,15 @@ public class game {
                             Thread.sleep(1000);
                             연결.전투2(람머스, souljunior);
                             Thread.sleep(1000);
-                            if(souljunior.hp<=0){
-                                연결.사망(souljunior,람머스);
+                            if (souljunior.hp <= 0) {
+                                연결.사망(souljunior, 람머스);
                                 메시지.몹정보(람머스);
+                                cishu = 0;
+                                death++;
+                                람머스 = new michael_RPG.monster("람머스", 5500, 5500, 380, 110);
+                                if (death == 2) {
+                                    연결.희망(souljunior);
+                                }
                                 continue;
                             }
                         } catch (InterruptedException e) {
@@ -411,17 +458,18 @@ public class game {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
-            cishu=0;
+            cishu = 0;
+            death = 0;
             while (군다.hp > 0) {
                 cishu++;
-                if(cishu==1){
+                if (cishu == 1) {
                     연결.공포(soulsenior);
                 }
-                if(cishu==2){
+                if (cishu == 2) {
                     연결.의지(soulsenior);
                     연결.난동(군다);
                 }
-                if(cishu>2){
+                if (cishu > 2) {
                     연결.난동중(군다);
                 }
                 메시지.전투창(soulsenior);
@@ -432,7 +480,7 @@ public class game {
                     if (i == 1) {
                         연결.전투(군다, soulsenior, 베어가르기);
                         연결.마나소모(soulsenior);
-                        if(군다.hp<=0){
+                        if (군다.hp <= 0) {
                             연결.몹사망(군다);
                             break;
                         }
@@ -440,9 +488,15 @@ public class game {
                             Thread.sleep(1000);
                             연결.전투2(군다, soulsenior);
                             Thread.sleep(1000);
-                            if(soulsenior.hp<=0){
-                                연결.사망(soulsenior,군다);
+                            if (soulsenior.hp <= 0) {
+                                연결.사망(soulsenior, 군다);
                                 메시지.몹정보(군다);
+                                cishu = 0;
+                                death++;
+                                군다 = new michael_RPG.monster("군다", 11000, 11000, 1000, 1000);
+                                if (death == 2) {
+                                    연결.희망(soulsenior);
+                                }
                                 continue;
                             }
                         } catch (InterruptedException e) {
@@ -471,17 +525,18 @@ public class game {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
-            cishu=0;
+            cishu = 0;
+            death = 0;
             while (디아블로.hp > 0) {
                 cishu++;
-                if(cishu==2){
+                if (cishu == 2) {
                     연결.의지(soulmaster);
                     연결.난동(디아블로);
                 }
-                if(cishu>2){
+                if (cishu > 2) {
                     연결.난동중(디아블로);
                 }
-                if(cishu>3){
+                if (cishu > 3) {
                     연결.도트뎀(soulmaster);
                 }
                 메시지.전투창(soulmaster);
@@ -492,7 +547,7 @@ public class game {
                     if (i == 1) {
                         연결.전투(디아블로, soulmaster, 홀리크로스);
                         연결.마나소모(soulmaster);
-                        if(디아블로.hp<=0){
+                        if (디아블로.hp <= 0) {
                             연결.몹사망(디아블로);
                             break;
                         }
@@ -500,36 +555,44 @@ public class game {
                             Thread.sleep(1000);
                             연결.전투2(디아블로, soulmaster);
                             Thread.sleep(1000);
-                            if(soulmaster.hp<=0){
-                                연결.사망(soulmaster,디아블로);
+                            if (soulmaster.hp <= 0) {
+                                연결.사망(soulmaster, 디아블로);
                                 메시지.몹정보(디아블로);
+                                cishu = 0;
+                                death++;
+                                디아블로 = new michael_RPG.monster("디아블로", 40000, 40000, 2000, 2000);
+                                if (death == 2) {
+                                    연결.희망(soulmaster);
+                                }
                                 continue;
                             }
                         } catch (InterruptedException e) {
                         }
                     }
                 }
-            }
-            if (i == 2) {
-                메시지.포션();
-                메시지.포션표시(체력포션);
-                메시지.포션표시2(마나포션);
-                i = sc.nextInt();
-                if (i == 1) {
-                    메시지.체력포션(soulmaster, 체력포션);
-                }
                 if (i == 2) {
-                    메시지.마나포션(soulmaster, 마나포션);
+                    메시지.포션();
+                    메시지.포션표시(체력포션);
+                    메시지.포션표시2(마나포션);
+                    i = sc.nextInt();
+                    if (i == 1) {
+                        메시지.체력포션(soulmaster, 체력포션);
+                    }
+                    if (i == 2) {
+                        메시지.마나포션(soulmaster, 마나포션);
+                    }
+                }
+                if (cishu == 3) {
+                    System.out.println("디아블로는 브레스를 뿜었습니다!!!");
+                    연결.화상(soulmaster);
                 }
             }
-            if(cishu==3){
-                System.out.println("디아블로는 브레스를 뿜었습니다!!!");
-                연결.화상(soulmaster);
-            }
+            System.out.println("축하합니다!! 디아블로를 무찌르셨습니다!!");
+            System.out.println("미하일키우기를 즐겨주셔서 감사합니다!!");
+            System.out.println();
+        } else {
+            System.out.println("유효하지 않은 접근입니다.");
         }
-        System.out.println("축하합니다!! 디아블로를 무찌르셨습니다!!");
-        System.out.println("미하일키우기를 즐겨주셔서 감사합니다!!");
-        System.out.println();
     }
 }
 
