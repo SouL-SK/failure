@@ -138,7 +138,6 @@ public class game {
                         Thread.sleep(1000);
                         if (beginner.hp <= 0) {
                             연결.사망(beginner, 피카츄);
-                            메시지.몹정보(피카츄);
                             cishu = 0;
                             death++;
                             피카츄 = new michael_RPG.monster("피카츄", 300, 300, 130, 50);
@@ -169,7 +168,6 @@ public class game {
                     cishu = 0;
                     death++;
                     연결.dead(피카츄);
-                    메시지.몹정보(피카츄);
                     if (death == 2) {
                         연결.희망(beginner);
                     }
@@ -590,8 +588,9 @@ public class game {
             System.out.println("축하합니다!! 디아블로를 무찌르셨습니다!!");
             System.out.println("미하일키우기를 즐겨주셔서 감사합니다!!");
             System.out.println();
-        } else {
-            System.out.println("유효하지 않은 접근입니다.");
+            else{
+                System.out.println("유효하지 않은 접근입니다.");
+            }
         }
     }
 }

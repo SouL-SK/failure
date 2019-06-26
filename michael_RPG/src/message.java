@@ -91,7 +91,7 @@ public class message {
         System.out.println("현재 상태");
         System.out.println(character.name + "의 체력:" + character.hp + "/" + character.max_hp);
         System.out.println(character.name + "의 마나:" + character.mp + "/" + character.max_mp);
-        System.out.println(character.name + "의 공격력:" + (character.attack_value + character.weapon.attack_value));
+System.out.println(character.name + "의 공격력:" + (character.attack_value + character.weapon.attack_value));
         System.out.println(character.name + "의 방어력:" + (character.defend_value + character.equip.defend_value));
         System.out.println("----------------------------------------------------");
         System.out.println("행동을 취하세요");

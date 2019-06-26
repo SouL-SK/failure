@@ -135,7 +135,6 @@ public class battle {
         character.max_mp += character.max_mp * 0.5;
         character.hp = character.max_hp;
         character.mp = character.max_mp;
-        monster.hp = monster.max_hp;
     }
     public void 몹사망(michael_RPG.monster monster){
         try{
@@ -150,6 +149,7 @@ public class battle {
             monster.max_hp=350;
             monster.attack_value=100;
             monster.defend_value=50;
+            monster.hp=monster.max_hp;
         }
         if(monster.name=="람머스"){
             monster.hp=5500;
