@@ -7,7 +7,7 @@ public class message {
         System.out.println("<도움말>------------------------------------------");
         System.out.println("상태창을 확인 하고 싶을 땐 i를 눌러주시면 됩니다.");
         System.out.println("스킬을 확인하고 싶을 땐 k를 누르시면 됩니다.");
-        System.out.println("-------------------------------------------------");
+        System.out.println("------------------------------------------------");
         System.out.println();
         System.out.println("당신은 태초마을의 리무녁");
         System.out.println("오늘도 전직을 하기 위해 모험을 떠난다.");
@@ -79,12 +79,12 @@ public class message {
         }
     }
     public void 몹정보(michael_RPG.monster monster){
-        System.out.println("----------------------------------------------");
+        System.out.println("------------------------------------------------");
         System.out.println(monster.name+"의 상태");
         System.out.println(monster.name+"의 체력:"+monster.hp);
         System.out.println(monster.name+"의 공격력:"+monster.attack_value);
         System.out.println(monster.name+"의 방어력:"+monster.defend_value);
-        System.out.println("----------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 
     public void 전투창(michael_RPG.character character) {
@@ -93,16 +93,16 @@ public class message {
         System.out.println(character.name + "의 마나:" + character.mp + "/" + character.max_mp);
 System.out.println(character.name + "의 공격력:" + (character.attack_value + character.weapon.attack_value));
         System.out.println(character.name + "의 방어력:" + (character.defend_value + character.equip.defend_value));
-        System.out.println("----------------------------------------------------");
+        System.out.println("------------------------------------------------");
         System.out.println("행동을 취하세요");
         System.out.println("공격=1 도구=2");
-        System.out.println("----------------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 
     public void 포션() {
         System.out.println("도구창");
         System.out.println("체력포션=1" + " 마나포션=2");
-        System.out.println("----------------------------------------------------");
+        System.out.println("------------------------------------------------");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -111,12 +111,12 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
 
     public void 포션표시(michael_RPG.portion portion) {
         System.out.println("체력포션: " + portion.number + "/5");
-        System.out.println("-----------------------------------------------------");
+        System.out.println("-------------------------------------------------");
     }
 
     public void 포션표시2(michael_RPG.portion portion) {
         System.out.println("마나포션: " + portion.number + "/5");
-        System.out.println("-----------------------------------------------------");
+        System.out.println("-------------------------------------------------");
     }
 
     public void 체력포션(michael_RPG.character character, michael_RPG.portion portion) {
@@ -125,14 +125,14 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
             portion.number--;
             System.out.println("포션 개수:" + portion.number + "/5");
             System.out.println("체력이 회복되었습니다.");
-            System.out.println("------------------------------------------------------");
+            System.out.println("--------------------------------------------------");
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
         } else
             System.out.println("체력포션을 다 사용하셨습니다.");
-        System.out.println("------------------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 
     public void 마나포션(michael_RPG.character character, michael_RPG.portion portion) {
@@ -141,20 +141,20 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
             portion.number--;
             System.out.println("포션 개수:" + portion.number + "/5");
             System.out.println("마나가 회복되었습니다.");
-            System.out.println("------------------------------------------------------");
+            System.out.println("------------------------------------------------");
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
         } else
             System.out.println("마나포션을 다 사용하셨습니다.");
-        System.out.println("----------------------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 
     public void 스킬창(michael_RPG.character character, michael_RPG.skill skil) {
         System.out.println("스킬을 사용하세요.");
         System.out.println(skil.name + "=1 \n데미지:" + skil.damage + " 소모마나:" + skil.use_mp);
-        System.out.println("----------------------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 
     public void 전직(michael_RPG.monster monster, michael_RPG.character character) {
@@ -164,19 +164,19 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
             } catch (InterruptedException e) {
             }
             System.out.println("축하합니다!! 첫 전직을 하실 수 있습니다!!");
-            System.out.println("----------------------------------------------------------");
+            System.out.println("------------------------------------------------");
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
             System.out.println("선택하실 수 있는 루트는 미하일루트=1 와 소울마스터루트=2 입니다.");
-            System.out.println("----------------------------------------------------------");
+            System.out.println("------------------------------------------------");
         }
         if (monster.name == "람머스" && character.name == "미하일") {
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 미하일에서 기사미하일로 전직하셨습니다!!");
-                System.out.println("----------------------------------------------------------");
+                System.out.println("------------------------------------------------");
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
@@ -185,7 +185,7 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 소울주니어에서 소울시니어로 전직하셨습니다!!");
-                System.out.println("-----------------------------------------------------------");
+                System.out.println("------------------------------------------------");
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
@@ -194,7 +194,7 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 기사미하일에서 검성미하일로 전직하셨습니다!!");
-                System.out.println("------------------------------------------------------------");
+                System.out.println("------------------------------------------------");
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
@@ -203,7 +203,7 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
             try {
                 Thread.sleep(1000);
                 System.out.println("축하합니다!! 소울시니어에서 소울마스터로 전직하셨습니다!!");
-                System.out.println("------------------------------------------------------------");
+                System.out.println("------------------------------------------------");
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
             }
@@ -212,6 +212,6 @@ System.out.println(character.name + "의 공격력:" + (character.attack_value +
 
     public void 전직완료(michael_RPG.character character) {
         System.out.println("축하합니다!! 당신은 " + character.name + "로 전직하셨습니다!!");
-        System.out.println("-------------------------------------------------------------");
+        System.out.println("------------------------------------------------");
     }
 }
